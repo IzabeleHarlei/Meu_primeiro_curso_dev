@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(223, 195, 255);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 32px;
+    border-bottom: 1px solid rgb(84, 84, 117);
+    
+}
+header div {
+    color:rgb(60, 60, 83);
+    text-align: center;
+
+}
+header div a{
+    color: rgb(60, 60, 83);
+    text-decoration: none;
+    line-height: 20px;
+    margin : 0 16px;
+    font-size: 23px;  
+    font-family: "Roboto", sans-serif;
+}
+header div a:hover{
+    color: rgb(236, 204, 19);
+    transition: color 700ms;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,138;1,138&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin : 0 auto;
+    padding: 0 ;
+    border : 0 ;
+}
+#box{
+    text-align: center;
+    padding: 32px;
+}
+#box img{
+    border-radius: 50%;
+    border: 3px solid rgb(99, 94, 117);
+    margin-bottom: 32px;
+
+}
+#box p{
+    text-decoration: none;
+    color:rgb(60, 60, 83)
+}
