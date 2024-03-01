@@ -43,7 +43,30 @@ header div a:hover{
     margin-bottom: 32px;
 
 }
-#box p{
-    text-decoration: none;
-    color:rgb(60, 60, 83)
+#box h2{
+    color:rgb(36, 36, 51);
+    max-width: 500px;
+    margin: 0% auto;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: "Roboto", sans-serif;
+    opacity: 0.8;
+
+}
+
+#box h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: normal;
+    margin-top: 8px;
+    color:  rgb(36, 36, 51);
+}
+#box h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    line-height: 34 px;
+    font-weight: normal;
+    margin: 32px;
+    color: rgb(36, 36, 51);
 }
