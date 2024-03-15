@@ -43,6 +43,8 @@ header div a:hover{
     margin-bottom: 32px;
 
 }
+ 
+
 #box h2{
     color:rgb(36, 36, 51);
     max-width: 500px;
@@ -65,8 +67,61 @@ header div a:hover{
 #box h3{
     font-family: "Roboto", sans-serif;
     font-size: 28px;
-    line-height: 34 px;
+    line-height: 34px;
     font-weight: normal;
-    margin: 32px;
+    margin-top: 10px;
     color: rgb(36, 36, 51);
+}
+.links {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.links a {
+    color: rgb(60, 60, 83);
+    font-size: 23px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: rgb(236, 204, 19);
+    transition : 700ms;
+    font-size: 23px;
+}
+
+#box h1{
+    padding: 4px;
+}
+#box h3{
+    padding: 10px;
+}
+#box h2:hover{
+    font-size: 20px;
+}
+#box a {
+    color:rgb(60, 60, 83);
+    text-decoration:none;
+    transition: 600ms;
+}
+#box a:hover{
+    color:rgb(216, 184, 0);
+    transition: 700ms;
+}
+
+#linksFooter {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+#linksFooter a {
+    border-bottom: 2px solid rgb(60, 60, 83);
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+#linksFooter a:hover{
+    color:rgb(216, 184, 0);
+    font-size: 23;
+    transition: 700ms;
 }
