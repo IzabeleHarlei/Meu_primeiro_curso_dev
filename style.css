@@ -125,3 +125,23 @@ header div a:hover{
     font-size: 23;
     transition: 700ms;
 }
+
+.card {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.card{
+    background-color: rgb(41, 67, 135);
+}
+.card_image img{
+    width: 100%;
+}
+
+.card_content,.card_info{
+    padding: 18px
+}
+
+.card_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
