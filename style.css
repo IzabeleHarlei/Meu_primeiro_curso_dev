@@ -131,7 +131,7 @@ header div a:hover{
     margin: 20px auto;
 }
 .card{
-    background-color: rgb(41, 67, 135);
+    background-color: rgb(255, 255, 255);
 }
 .card_image img{
     width: 100%;
@@ -144,4 +144,11 @@ header div a:hover{
 .card_info{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.card_price{
+    background-color: rgb(223, 195, 255);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
 }
